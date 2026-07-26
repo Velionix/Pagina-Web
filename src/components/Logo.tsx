@@ -6,7 +6,7 @@ interface LogoProps {
   size?: number;
 }
 
-export default function Logo({ className = '', showWordmark = true, size = 28 }: LogoProps) {
+export default function Logo({ className = '', showWordmark = true, size = 40 }: LogoProps) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <motion.img
