@@ -14,7 +14,7 @@ export default function Logo({ className = '', showWordmark = true, size = 28 }:
         height={size}
         viewBox="0 0 32 32"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://github.com/Velionix/Pagina-Web/blob/5d14ff5a72cabb417b0053a3457fc7f310f0fb15/favicon.png"
         initial={{ opacity: 0, rotate: -8 }}
         animate={{ opacity: 1, rotate: 0 }}
         transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
